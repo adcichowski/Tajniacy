@@ -1,0 +1,22 @@
+{
+    "extends": [
+        "airbnb",
+        "prettier",
+        "prettier/react"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": "error",
+        "react/jsx-filename-extension": [1, { "extensions": [".js"] }]
+    },
+    "env": {
+        "browser": true,
+        "node": true
+}
+}
